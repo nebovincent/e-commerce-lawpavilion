@@ -1,0 +1,122 @@
+.main_wrapper {
+  display: flex;
+  width: min-content;
+  height: min-content;
+  padding: 82px 223px 178px 96.71px;
+  .first_column {
+    // flex: 1;
+    margin-right: 40px;
+    div {
+      margin-bottom: 40px;
+      img {
+        width: 79px;
+        height: 80px;
+      }
+    }
+  }
+  .second_column {
+    margin-right: 60px;
+    // flex: 8;
+
+    img {
+      width: 610px;
+      height: 511px;
+    }
+  }
+  .third_column {
+    // flex: 4;
+    width: 292px;
+    height: 595px;
+    .name {
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 43px !important ;
+
+      span {
+        // margin-top: 16px;
+        font-weight: 600;
+      }
+    }
+    .sizes {
+      font-family: "Roboto Condensed";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 8px !important ;
+    }
+    .sizes_wrapper {
+      display: flex;
+      margin-bottom: 24px !important ;
+      gap: 12px;
+      div {
+        width: 63px;
+        height: 45px;
+        border: 1px solid #1d1f22;
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+    .color {
+      margin-bottom: 8px !important ;
+    }
+    .colors_wrapper {
+      margin-bottom: 36px !important ;
+      display: flex;
+      gap: 8px;
+      div {
+        width: 32px;
+        height: 32px;
+      }
+      div:hover {
+        border: 1px solid #5ece7b;
+        padding: 1px;
+        cursor: pointer;
+      }
+    }
+    .price {
+      margin-bottom: 10px !important ;
+      font-family: "Roboto Condensed";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 18px;
+    }
+    .amount {
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 18px;
+      margin-bottom: 20px !important ;
+    }
+    .add_to_cart {
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 120%;
+      display: flex;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 32px;
+      background: #5ece7b;
+      cursor: pointer;
+      margin-bottom: 40px;
+    }
+    .desc {
+    }
+  }
+}

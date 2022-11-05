@@ -1,0 +1,194 @@
+.main_wrapper {
+  padding: 80px 100px 274px 100px;
+  .title {
+    padding-bottom: 55px;
+    border-bottom: 1px solid #e5e5e5;
+    // margin-bottom: 24px;
+    h1 {
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+  .item_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    border-bottom: 1px solid #e5e5e5;
+    .first_column {
+      .name {
+        font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        span {
+          font-weight: 600;
+        }
+      }
+      .amount {
+        font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+      .size {
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 7px;
+      }
+      .sizes_wrapper {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 16px;
+        div {
+          font-family: "Source Sans Pro";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 18px;
+          width: 63px;
+          height: 45px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid #1d1f22;
+          cursor: pointer;
+        }
+      }
+      .color {
+        font-family: "Roboto Condensed";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 8px;
+      }
+      .colors_wrapper {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 30px;
+
+        div {
+          width: 32px;
+          height: 32px;
+        }
+        div:hover {
+          border: 1px solid #5ece7b;
+          padding: 1px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .second_column {
+      display: flex;
+      gap: 24px;
+      .column_one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        div {
+          width: 45px;
+          height: 45px;
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 160%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        div:first-child,
+        div:last-child {
+          border: 1px solid black;
+          font-weight: 200;
+          font-size: 30px;
+          cursor: pointer;
+        }
+      }
+      .column_two {
+        img {
+          width: 200px;
+          height: 288px;
+        }
+      }
+    }
+  }
+  .foot {
+    margin-top: 32px;
+    .tax {
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 8px;
+
+      span {
+        font-weight: 600;
+      }
+    }
+    .quantity {
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 8px;
+
+      span {
+        font-weight: 600;
+      }
+    }
+    .total {
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 16px;
+
+      span {
+        font-weight: 600;
+      }
+    }
+    .order {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 32px;
+      background: #5ece7b;
+      max-width: 279px;
+      max-height: 43px;
+      color: #ffffff;
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        background: #5ece7b;
+        max-width: 279px;
+        max-height: 43px;
+        color: #ffffff;
+        border: none;
+        margin: 0;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+        transition: background 250ms ease-in-out, transform 150ms ease;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+    }
+  }
+}
