@@ -1,5 +1,7 @@
 .overlay_wrapper {
+  padding-top: 80px;
   background: rgba(57, 55, 72, 0.22);
+  background-clip: content-box, padding-box;
   top: 0;
   left: 0;
   bottom: 0;

@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import classes from "components/layouts/Nav.module.scss";
-import { BiDollar, BiEuro, BiYen, BiChevronUp } from "react-icons/bi";
+import { BiDollar, BiChevronUp } from "react-icons/bi"; // BiEuro, BiYen, for later use
 import { BsCart2 } from "react-icons/bs";
 import icon from "images/icon.png";
 import { useLocation, Link } from "react-router-dom";
