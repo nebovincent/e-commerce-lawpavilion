@@ -63,6 +63,10 @@
           border: 1px solid #1d1f22;
           cursor: pointer;
         }
+        div:hover {
+          background-color: #1d1f22;
+          color: white;
+        }
       }
       .color {
         font-family: "Roboto Condensed";

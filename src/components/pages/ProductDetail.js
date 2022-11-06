@@ -45,7 +45,7 @@ function ProductDetail() {
             ))}
           </div>
           <h4 className={classes.price}>PRICE:</h4>
-          <p className={classes.amount}>${product.amount}</p>
+          <p className={classes.amount}>${product.amount.toFixed(2)}</p>
           <div
             className={classes.add_to_cart}
             onClick={() => {

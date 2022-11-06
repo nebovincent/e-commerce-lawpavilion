@@ -16,8 +16,8 @@ function App() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    // disableCartModal();
-    // disableCurrencySelector();
+    disableCartModal();
+    disableCurrencySelector();
   }, [pathname, disableCartModal, disableCurrencySelector]);
   // keep track of route changes to disable dropdowns[pathname]);
 
